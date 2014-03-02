@@ -1,0 +1,48 @@
+#huaci {
+	color:#000!important;
+	font-family:Microsoft YaHei,Arial,sans-serif!important;
+	font-size:14px!important;
+	position:absolute!important;
+	text-align:left!important;
+	z-index: 99999999999;
+}
+#huaci p {
+	margin: 0;
+	padding: 0;
+}
+#huaciWarpper {
+	width: 250px;
+	height: 100px;
+	background: #ffc;
+	border:2px solid #dc7;
+	-webkit-border-radius: 5px;
+}
+#huaciMain {
+	width: 230px;
+	height: 80px;
+	margin: 10px;
+}
+#huaciArrow {
+	position: relative;
+}
+#huaciArrowInner {
+	background: transparent;
+	border-top: 12px solid #ffc;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	position: absolute;
+	left: 30px;
+	top: -3px;
+	width: 0px;
+	z-index: 99999;
+}
+#huaciArrowOuter {
+	background: transparent;
+	border-top: 12px solid #dc7;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	position: absolute;
+	left: 30px;
+	width: 0px;
+	z-index: 99998;
+}
